@@ -4,7 +4,8 @@ Your task is to setup and apply a quantum convolutional neural network (QCNN) on
 The electron-photon dataset (which can be found ​ here​ ) contains 100 samples for training and another 100 for testing, laid out as follows:
 - data["x_train"]: Training dataset of 100 32x32 images containing the particles'
 energy (100, 32, 32)
-- data["y_train"]:" Training labels, 0 = "photon", 1 = "electron" (100,)● data["x_test"]: Test dataset of 100 32x32 images containing the particles'
+- data["y_train"]:" Training labels, 0 = "photon", 1 = "electron" (100,)
+- data["x_test"]: Test dataset of 100 32x32 images containing the particles'
 energy (100, 32, 32)
 - data["y_test"]:" Test labels, 0 = "photon", 1 = "electron" (100,)
 
